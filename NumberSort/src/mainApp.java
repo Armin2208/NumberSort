@@ -1,8 +1,6 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class mainApp {
     private JButton generateNumberButton;
@@ -109,31 +107,6 @@ public class mainApp {
             ConsoleOutputTextArea.append(", ");
         }
         ConsoleOutputTextArea.append((System.lineSeparator()));
-        /*for(int i = 0; i < input.getLineCount(); i++){
-            try {
-                int generatedNumber = Integer.parseInt(input.get;
-            } catch (ParseException e) {
-
-            };
-
-            numbers[arrayNumber] = generatedNumber;
-            arrayNumber = arrayNumber+1;
-            ConsoleOutputTextArea.append(generatedNumber + ", ");
-        }
-        ConsoleOutputTextArea.append(System.lineSeparator());
-        //String s[] = input.getText().split("\\r?\\n");
-        //int[] numbero = new int[s.length];
-        String iput = input.getText();
-        String[] ipt = iput.split("\n");
-        System.out.println(ipt.length);
-        //System.out.println(numbero.length);
-        System.out.print(ipt);
-        for (int i = 0; i < s.length; i++) {
-            //numbers[i] = Integer.getInteger(s[i]);
-            System.out.println(s[i]);
-        }
-        ConsoleOutputTextArea.append(numbero + ", ");
-        */
     }
 
     //just GUI things

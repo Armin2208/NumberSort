@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NumberSort:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NumberSort_jar</output-path>
+    <root id="archive" name="NumberSort.jar">
+      <element id="module-output" name="NumberSort" />
+    </root>
+  </artifact>
+</component>
