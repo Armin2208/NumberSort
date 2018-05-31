@@ -24,54 +24,39 @@ public class mainApp {
         comboBoxHandler();
         uiHandler(0);
 
-        generateNumberButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                generateNumber();
-                uiHandler(1);
-            }
+        generateNumberButton.addActionListener(e -> {
+            generateNumber();
+            uiHandler(1);
         });
-        sortTypeComboBox.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Object selected = sortTypeComboBox.getSelectedItem();
-                switch (selected.toString()) {
-                    case "Bubble Sort":
-                        sortType = 0;
-                        break;
-                    case "Selection Sort":
-                        sortType = 1;
-                        break;
-                    case "Insertion Sort":
-                        sortType = 2;
-                        break;
-                }
-                System.out.println("Selected sort type: " + sortType);
+        sortTypeComboBox.addActionListener(e -> {
+            Object selected = sortTypeComboBox.getSelectedItem();
+            switch (selected.toString()) {
+                case "Bubble Sort":
+                    sortType = 0;
+                    break;
+                case "Selection Sort":
+                    sortType = 1;
+                    break;
+                case "Insertion Sort":
+                    sortType = 2;
+                    break;
             }
+            System.out.println("Selected sort type: " + sortType);
         });
-        startSortButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if(sortType == 0) bubbleSort();
-                if(sortType == 1) selectionSort();
-                if (sortType == 2) insertionSort();
-                uiHandler(2);
-            }
+        startSortButton.addActionListener(e -> {
+            if(sortType == 0) bubbleSort();
+            if(sortType == 1) selectionSort();
+            if (sortType == 2) insertionSort();
+            uiHandler(2);
         });
-        resetButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                arrayNumber = 0;
-                ConsoleOutputTextArea.append(System.lineSeparator());
-                uiHandler(0);
-            }
+        resetButton.addActionListener(e -> {
+            arrayNumber = 0;
+            ConsoleOutputTextArea.append(System.lineSeparator());
+            uiHandler(0);
         });
-        fromList.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                inputFromList();
-                uiHandler(1);
-            }
+        fromList.addActionListener(e -> {
+            inputFromList();
+            uiHandler(1);
         });
     }
 
