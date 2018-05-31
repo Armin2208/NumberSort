@@ -87,7 +87,6 @@ public class mainApp {
             numbers = numbero;
         }
         printToTextArea();
-        ConsoleOutputTextArea.append((System.lineSeparator()));
     }
 
     //just GUI things
