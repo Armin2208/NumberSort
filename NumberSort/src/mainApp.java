@@ -176,7 +176,7 @@ public class mainApp {
         JFrame mainWindow = new JFrame("Number Sort by Armin Osaj");
         mainWindow.setContentPane(new mainApp().panel1);
         mainWindow.pack();
-        mainWindow.setSize(1000,600);
+        mainWindow.setSize(1010,600);
         mainWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         mainWindow.setResizable(false);
         mainWindow.setVisible(true);

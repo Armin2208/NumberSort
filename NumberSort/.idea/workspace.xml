@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="51" selection-start-line="51" selection-end-line="52" />
+            <state relative-caret-position="544">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainApp.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainApp.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainApp.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -64,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/OutputStream.java" />
-        <option value="$PROJECT_DIR$/src/mainApp.form" />
         <option value="$PROJECT_DIR$/src/mainApp.java" />
+        <option value="$PROJECT_DIR$/src/mainApp.form" />
       </list>
     </option>
   </component>
@@ -109,6 +109,12 @@
               <item name="NumberSort" type="b2602c69:ProjectViewProjectNode" />
               <item name="NumberSort" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NumberSort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NumberSort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mainApp" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +220,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28654000" />
+    <option name="totallyTimeSpent" value="28931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,11 +245,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -434,25 +440,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OutputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/mainApp.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="415">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="51" selection-start-line="51" selection-end-line="52" />
+        <state relative-caret-position="544">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainApp.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
