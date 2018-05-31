@@ -90,7 +90,6 @@ public class mainApp {
     private void inputFromList(){
         ConsoleOutputTextArea.append("Order: ");
         String[] lines = input.getText().split("\\n");
-        String tmp;
         int[] numbero = new int[lines.length + 1];
         numbers = new int[lines.length];
         arrayNumber = lines.length;
@@ -102,10 +101,7 @@ public class mainApp {
             }
             numbers = numbero;
         }
-        for (int i = 0; i < lines.length; i++) {
-            ConsoleOutputTextArea.append(String.valueOf(numbers[i]));
-            ConsoleOutputTextArea.append(", ");
-        }
+        printToTextArea();
         ConsoleOutputTextArea.append((System.lineSeparator()));
     }
 
@@ -185,7 +181,7 @@ public class mainApp {
             }
             numbers[j + 1] = temp;
 
-            ConsoleOutputTextArea.append("Nach Durchlauf " + i +": ");
+            ConsoleOutputTextArea.append("After run " + i +": ");
             printToTextArea();
         }
     }
